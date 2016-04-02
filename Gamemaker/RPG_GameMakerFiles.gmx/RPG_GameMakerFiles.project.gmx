@@ -9,7 +9,9 @@
     <sprite>sprites\spr_playertemp</sprite>
     <sprite>sprites\spr_enemie</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_starrynight</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
