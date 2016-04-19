@@ -21,6 +21,10 @@
     <background>background\ts_grassworld</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\move_y.gml</script>
+    <script>scripts\move_x.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="technical">
       <object>objects\obj_control</object>
@@ -34,6 +38,7 @@
     <objects name="enemies">
       <object>objects\obj_alien</object>
     </objects>
+    <object>objects\obj_mushroom</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_boot</room>

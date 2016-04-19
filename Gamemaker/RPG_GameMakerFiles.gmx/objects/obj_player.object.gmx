@@ -30,6 +30,9 @@ key_left = ord('A');
 key_down = ord('S');
 key_right = ord('D');
 
+x_input = 0;
+y_input = 0;
+
 </string>
           </argument>
         </arguments>
@@ -52,15 +55,16 @@ key_right = ord('D');
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var y_input = keyboard_check_pressed(key_down) - keyboard_check_pressed(key_up);
-var x_input = keyboard_check_pressed(key_right) - keyboard_check_pressed(key_left);
+            <string>y_input = keyboard_check_pressed(key_down) - keyboard_check_pressed(key_up);
+x_input = keyboard_check_pressed(key_right) - keyboard_check_pressed(key_left);
 
 if y_input != 0 {
     actions++;
-    y += y_input * TILE_SIZE;
+    move_y(y_input);
 }else if x_input != 0 {
     actions++;
-    x += x_input * TILE_SIZE;
+    move_x(x_input);
+    
 }
 </string>
           </argument>

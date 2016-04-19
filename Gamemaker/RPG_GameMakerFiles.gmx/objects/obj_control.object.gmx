@@ -104,8 +104,12 @@ if actions &gt; 0{
           <argument>
             <kind>1</kind>
             <string>///get input
-if(keyboard_check_pressed( vk_f3)){
+if keyboard_check_pressed( vk_f3){
     debug = abs(debug- 1);
+}
+
+if debug &amp;&amp; keyboard_check_pressed( ord('R')) {
+    room_restart();
 }
 </string>
           </argument>
@@ -136,6 +140,9 @@ if !debug {
 
 draw_text(1*TILE_SIZE, 1*TILE_SIZE, "debug: " +string(debug));
 draw_text(1*TILE_SIZE, 2*TILE_SIZE, "actions: " +string(actions));
+
+draw_text(4*TILE_SIZE, 1*TILE_SIZE, "x_input: " +string(obj_player.x_input));
+draw_text(4*TILE_SIZE, 2*TILE_SIZE, "y_input: " +string(obj_player.y_input));
 </string>
           </argument>
         </arguments>

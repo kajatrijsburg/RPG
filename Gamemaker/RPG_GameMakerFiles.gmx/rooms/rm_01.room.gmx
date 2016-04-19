@@ -53,6 +53,16 @@
   <instances>
     <instance objName="obj_player" x="320" y="288" name="inst_3F574543" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_alien" x="416" y="288" name="inst_D6C089C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mushroom" x="384" y="256" name="inst_F88859BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mushroom" x="384" y="288" name="inst_B934DC4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mushroom" x="384" y="320" name="inst_1F398DC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mushroom" x="384" y="384" name="inst_C678F98C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mushroom" x="352" y="352" name="inst_D1466CD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mushroom" x="384" y="416" name="inst_2E061404" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mushroom" x="384" y="448" name="inst_2FFD63D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mushroom" x="384" y="480" name="inst_A1F7B1C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mushroom" x="384" y="512" name="inst_B50DFE7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mushroom" x="384" y="224" name="inst_51E579EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_grassworld" x="224" y="192" w="32" h="32" xo="0" yo="0" id="10000002" name="inst_B38FAE89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -822,7 +832,7 @@
     <tile bgName="ts_grassworld" x="416" y="352" w="32" h="32" xo="66" yo="0" id="10001287" name="inst_8FEDB7CF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_grassworld" x="448" y="352" w="32" h="32" xo="66" yo="0" id="10001288" name="inst_E24465EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_grassworld" x="384" y="320" w="32" h="32" xo="0" yo="0" id="10001289" name="inst_EFBF5CD4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_grassworld" x="480" y="320" w="32" h="32" xo="33" yo="0" id="10001290" name="inst_22337E52" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_grassworld" x="480" y="320" w="32" h="32" xo="66" yo="0" id="10001291" name="inst_D84B318A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
