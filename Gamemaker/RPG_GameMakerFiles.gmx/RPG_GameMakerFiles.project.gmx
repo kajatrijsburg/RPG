@@ -6,14 +6,15 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_playertemp</sprite>
-    <sprite>sprites\spr_illgivethisanamelater</sprite>
-    <sprite>sprites\spr_carprop</sprite>
     <sprites name="enemies">
       <sprite>sprites\spr_enemy</sprite>
       <sprite>sprites\spr_alien</sprite>
       <sprite>sprites\spr_frog</sprite>
+      <sprite>sprites\spr_illgivethisanamelater</sprite>
     </sprites>
+    <sprite>sprites\spr_playertemp</sprite>
+    <sprite>sprites\spr_carprop</sprite>
+    <sprite>sprites\spr_mushroom</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_starrynight</background>
@@ -23,12 +24,15 @@
   <objects name="objects">
     <objects name="technical">
       <object>objects\obj_control</object>
-      <object>objects\par_turnbased</object>
-      <object>objects\par_enemy</object>
+      <objects name="parents ">
+        <object>objects\par_enemy</object>
+        <object>objects\par_wall</object>
+        <object>objects\par_turnbased</object>
+      </objects>
     </objects>
     <object>objects\obj_player</object>
     <objects name="enemies">
-      <object>objects\alien</object>
+      <object>objects\obj_alien</object>
     </objects>
   </objects>
   <rooms name="rooms">

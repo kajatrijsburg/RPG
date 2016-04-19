@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_player" x="320" y="288" name="inst_3F574543" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="alien" x="416" y="288" name="inst_D6C089C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_alien" x="416" y="288" name="inst_D6C089C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_grassworld" x="224" y="192" w="32" h="32" xo="0" yo="0" id="10000002" name="inst_B38FAE89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
