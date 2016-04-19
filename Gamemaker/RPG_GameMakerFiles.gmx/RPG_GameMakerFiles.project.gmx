@@ -8,6 +8,12 @@
   <sprites name="sprites">
     <sprite>sprites\spr_playertemp</sprite>
     <sprite>sprites\spr_enemie</sprite>
+    <sprite>sprites\spr_tile_grass</sprite>
+    <sprite>sprites\spr_npc_frog</sprite>
+    <sprite>sprites\spr_npc_alienthing</sprite>
+    <sprite>sprites\spr_shroom</sprite>
+    <sprite>sprites\spr_illgivethisanamelater</sprite>
+    <sprite>sprites\spr_carprop</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_starrynight</background>
