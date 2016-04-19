@@ -7,8 +7,6 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_playertemp</sprite>
-    <sprite>sprites\spr_tile_grass</sprite>
-    <sprite>sprites\spr_shroom</sprite>
     <sprite>sprites\spr_illgivethisanamelater</sprite>
     <sprite>sprites\spr_carprop</sprite>
     <sprites name="enemies">
@@ -19,8 +17,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_starrynight</background>
-    <background>background\ts_grass</background>
-    <background>background\tileset_water</background>
+    <background>background\ts_grassworld</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -35,8 +32,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_01</room>
     <room>rooms\rm_boot</room>
+    <room>rooms\rm_01</room>
   </rooms>
   <constants number="1">
     <constant name="TILE_SIZE">32</constant>
