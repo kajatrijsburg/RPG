@@ -25,6 +25,8 @@
   <paths name="paths"/>
   <objects name="objects">
     <objects name="technical">
+      <object>objects\obj_control</object>
+      <object>objects\par_turnbased</object>
       <object>objects\par_enemy</object>
     </objects>
     <object>objects\obj_player</object>
@@ -34,6 +36,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_01</room>
+    <room>rooms\rm_boot</room>
   </rooms>
   <constants number="1">
     <constant name="TILE_SIZE">32</constant>
